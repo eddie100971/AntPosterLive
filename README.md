@@ -1,4 +1,4 @@
-# antposter
+# AntPoster
 UCI two truths one lie game
 ## Inspiration
 At first, we wanted to make an app or website that functioned similarly to the UCI Confessions Page on Facebook. We also wanted to make it a type of game. We decided to pivot to our base idea which combined the two ideas into a game with a submission system, which would use those submissions in a sort of 2 Truths - 1 Lie game. The name drew inspiration from the recently popular game Among Us, where there is an "imposter"; thus we chose to name the game AntPoster(pronounced Ant-Pawster).
