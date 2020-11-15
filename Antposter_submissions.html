@@ -50,6 +50,7 @@
                 background-color: midnightblue;
             }
         </style>
+        <!--
         <script>
             var textarea = document.getElementById("truthinput");
             textarea.addEventListener("keyup", function(event){
@@ -60,9 +61,12 @@
             })
 
         </script>
+        -->
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="antposter.js"></script>
     </head>
     
-    <body style="background-color:lightblue;">
+    <body style="background-color:rgb(78, 157, 184);">
         <!-- submission page body-->
         <!-- needs 2 text areas that can accept input-->
         <!-- needs 3 buttons. 1 to submit and refresh each text box, 1 to go back to main page-->
@@ -80,10 +84,9 @@
             
             <h4> Truth Submissions</h4>
             <textarea class="center" class="buttons" id="truthinput" rows="5" cols="50">
-
             </textarea>
             <div class="buttons">
-                <button id="truthbutton" onclick="javascript:alert('Hello')">Submit</button>
+                <button id="truthbutton" onclick="postTruth()">Submit</button>
             </div>
             <br/>
             <h4> Lie Submissions</h4>
